@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Binarios y salida de compilación
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+
+# Cobertura de pruebas
+coverage.txt
+coverage.html
+
+# Dependencias vendor (descomentar si no se versiona vendor/)
+# vendor/
+
+# Workspace de Go
+go.work
+go.work.sum
+
+# Variables de entorno
+.env
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+
+# Claude Code (config local)
+.claude/settings.local.json
